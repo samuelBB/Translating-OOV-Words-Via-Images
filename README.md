@@ -1,2 +1,2 @@
-# -Translating-OOV-Words-Via-Images
-Code for a research project which seeks to translate OOV words from an MT system via images (In Beta)
+# Translating OOV Words Via Images
+This code is for a research project which seeks to translate OOV words from an MT system via images. This is accomplished in a multi-step process: First, an MT system supplies a list of detected OOV words. For each such OOV word, a set of images corresponding to the word is constructed by querying a large image database. Next, captions are obtained for each image using Google reverse image search (GRIS). Finally, a ranking mechanism predicts a translation from the image captions based on relevance features, where the prediction is used or discarded in the overall translation process based on a confidence threshold.
